@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.rithsagea.me.Main&apos; to &apos;TechnoMagic_Revolution&apos;&#x0A;- Original project: &apos;Minecraft&apos;&#x0A;- Original element: &apos;com.rithsagea.me.Main&apos;&#x0A;- Renamed element: &apos;com.rithsagea.me.TechnoMagic_Revolution&apos;&#x0A;- Update references to refactored element&#x0A;- Rename similarly named elements&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Main&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.rithsagea.me{Main.java[Main" matchStrategy="1" name="TechnoMagic_Revolution" qualified="false" references="true" similarDeclarations="true" stamp="1436651417255" textual="false" version="1.0"/>
+</session>

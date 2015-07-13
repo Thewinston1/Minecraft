@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Minecraft/eclipse/saves/Text-20150313-165446.zip&apos;" deleteContents="false" description="Delete resource &apos;Minecraft/eclipse/saves/Text-20150313-165446.zip&apos;" element1="/Minecraft/eclipse/saves/Text-20150313-165446.zip" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1426285581825"/>
+</session>
