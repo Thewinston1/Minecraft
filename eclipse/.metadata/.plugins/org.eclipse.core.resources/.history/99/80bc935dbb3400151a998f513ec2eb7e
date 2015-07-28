@@ -1,0 +1,9 @@
+package com.rithsagea.me;
+
+import net.minecraft.item.Item;
+
+public class ItemBerry {
+	public ItemBerry(int food, float saturation, boolean wolfFood, String name) {
+		super(food, saturation, wolfFood);
+	}
+}

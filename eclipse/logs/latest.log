@@ -1,75 +1,31 @@
-[18:20:42] [main/INFO]: Setting user: Player780
-[18:20:43] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:20:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:More Player Enchantments, FMLFileResourcePack:AencEx, FMLFileResourcePack:TechnoMagic Revolution
-[18:20:55] [Sound Library Loader/INFO]: Sound engine started
-[18:21:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:21:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:21:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:More Player Enchantments, FMLFileResourcePack:AencEx, FMLFileResourcePack:TechnoMagic Revolution
-[18:21:04] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:21:04] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:21:05] [Sound Library Loader/INFO]: Sound engine started
-[18:21:09] [Client thread/ERROR]: ########## GL ERROR ##########
-[18:21:09] [Client thread/ERROR]: @ Post startup
-[18:21:09] [Client thread/ERROR]: 1281: Invalid value
-[18:21:36] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:21:36] [Server thread/INFO]: Generating keypair
-[18:21:37] [Server thread/INFO]: Preparing start region for level 0
-[18:21:38] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:21:38] [Server thread/INFO]: Player780[local:E:ec01b6f0] logged in with entity id 151 at (-1205.6873639612875, 4.0, -623.6766438274735)
-[18:21:38] [Server thread/INFO]: Player780 joined the game
-[18:21:51] [Server thread/INFO]: [Player780: Given [Cocoa] * 64 to Player780]
-[18:21:51] [Client thread/INFO]: [CHAT] Warning: Using numeric IDs will not be supported in the future. Please use names, such as 'minecraft:cocoa'
-[18:21:51] [Client thread/INFO]: [CHAT] Given [Cocoa] * 64 to Player780
-[18:22:01] [Server thread/INFO]: [Player780: Given [Dragon Egg] * 1 to Player780]
-[18:22:01] [Client thread/INFO]: [CHAT] Given [Dragon Egg] * 1 to Player780
-[18:22:03] [Server thread/INFO]: Player780 has just earned the achievement [Taking Inventory]
-[18:22:03] [Client thread/INFO]: [CHAT] Player780 has just earned the achievement [Taking Inventory]
-[18:22:12] [Client thread/INFO]: [CHAT] minecraft:diamond_shovel, minecraft:diamond_horse_armor, minecraft:diamond_leggings, minecraft:diamond_boots, minecraft:double_plant, minecraft:diamond, minecraft:dark_oak_stairs, minecraft:dirt, minecraft:diamond_hoe, minecraft:diamond_block, minecraft:double_wooden_slab, minecraft:dragon_egg, minecraft:detector_rail, minecraft:diamond_pickaxe, minecraft:diamond_helmet, minecraft:daylight_detector, minecraft:diamond_axe, minecraft:diamond_sword, minecraft:dropper, minecraft:dye, minecraft:diamond_ore, minecraft:deadbush, minecraft:diamond_chestplate, minecraft:double_stone_slab, minecraft:dispenser
-[18:22:20] [Server thread/INFO]: [Player780: Given [Dragon Egg] * 64 to Player780]
-[18:22:20] [Client thread/INFO]: [CHAT] Given [Dragon Egg] * 64 to Player780
-[18:22:55] [Server thread/INFO]: [Player780: Set own game mode to Survival Mode]
-[18:22:55] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:22:57] [Server thread/INFO]: [Player780: Set own game mode to Creative Mode]
-[18:22:57] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:26:12] [Client thread/INFO]: [CHAT] minecraft:porkchop, minecraft:potato, minecraft:pumpkin, minecraft:painting, minecraft:potion, minecraft:piston, minecraft:pumpkin_pie, minecraft:pumpkin_seeds, minecraft:paper, minecraft:packed_ice, minecraft:portal, minecraft:poisonous_potato, minecraft:potatoes, minecraft:planks
-[18:26:16] [Client thread/INFO]: [CHAT] minecraft:enchanting_table, minecraft:end_portal, minecraft:ender_chest, minecraft:enchanted_book, minecraft:end_portal_frame, minecraft:ender_pearl, minecraft:ender_eye, minecraft:end_stone
-[18:26:19] [Client thread/INFO]: [CHAT] minecraft:end_portal, minecraft:ender_chest, minecraft:end_portal_frame, minecraft:ender_pearl, minecraft:ender_eye, minecraft:end_stone
-[18:26:22] [Server thread/INFO]: [Player780: Given [tile.null.name] * 1 to Player780]
-[18:26:22] [Client thread/INFO]: [CHAT] Given [tile.null.name] * 1 to Player780
-[18:26:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2575ms behind, skipping 51 tick(s)
-[18:26:51] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:26:59] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:27:52] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:28:04] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:28:19] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:28:24] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:29:19] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:29:26] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:29:26] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:29:33] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:29:54] [Client thread/INFO]: [CHAT] player did 8.0 damage
-[18:30:07] [Client thread/INFO]: [CHAT] player did 3.0 damage
-[18:30:38] [Client thread/INFO]: [CHAT] player did 28.8 damage
-[18:30:56] [Client thread/INFO]: [CHAT] player did 8.2 damage
-[18:31:05] [Client thread/INFO]: [CHAT] player did 28.8 damage
-[18:31:10] [Client thread/INFO]: [CHAT] player did 28.8 damage
-[18:31:10] [Client thread/INFO]: [CHAT] player did 8.2 damage
-[18:31:25] [Client thread/INFO]: [CHAT] player did 28.8 damage
-[18:31:51] [Server thread/INFO]: [Player780: Set own game mode to Survival Mode]
-[18:31:51] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[18:32:07] [Server thread/INFO]: Saving and pausing game...
-[18:32:07] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
-[18:32:07] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
-[18:32:07] [Server thread/INFO]: Saving chunks for level 'Testing Area'/The End
-[18:34:17] [Server thread/INFO]: Saving and pausing game...
-[18:34:17] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
-[18:34:17] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
-[18:34:21] [Server thread/INFO]: Saving and pausing game...
-[18:34:21] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
-[18:34:21] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
-[18:34:22] [Server thread/INFO]: Stopping server
-[18:34:22] [Server thread/INFO]: Saving players
-[18:34:22] [Server thread/INFO]: Saving worlds
-[18:34:22] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
-[18:34:22] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
-[18:34:24] [Client thread/INFO]: Stopping!
+[20:31:12] [main/INFO]: Setting user: Player597
+[20:31:14] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:31:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TMRCore
+[20:31:23] [Sound Library Loader/INFO]: Sound engine started
+[20:31:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:31:31] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:31:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:TMRCore
+[20:31:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:31:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:31:32] [Sound Library Loader/INFO]: Sound engine started
+[20:31:35] [Client thread/ERROR]: ########## GL ERROR ##########
+[20:31:35] [Client thread/ERROR]: @ Post startup
+[20:31:35] [Client thread/ERROR]: 1281: Invalid value
+[20:31:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:31:38] [Server thread/INFO]: Generating keypair
+[20:31:38] [Server thread/INFO]: Preparing start region for level 0
+[20:31:39] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:31:40] [Server thread/INFO]: Player597[local:E:32602177] logged in with entity id 129 at (57.87307196798137, 57.0, -14.848546040453707)
+[20:31:40] [Server thread/INFO]: Player597 joined the game
+[20:31:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2089ms behind, skipping 41 tick(s)
+[20:32:23] [Server thread/INFO]: Saving and pausing game...
+[20:32:23] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
+[20:32:23] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
+[20:32:23] [Server thread/INFO]: Saving chunks for level 'Testing Area'/The End
+[20:32:24] [Server thread/INFO]: Stopping server
+[20:32:24] [Server thread/INFO]: Saving players
+[20:32:24] [Server thread/INFO]: Saving worlds
+[20:32:24] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Overworld
+[20:32:24] [Server thread/INFO]: Saving chunks for level 'Testing Area'/Nether
+[20:32:24] [Server thread/INFO]: Saving chunks for level 'Testing Area'/The End
+[20:32:25] [Client thread/INFO]: Stopping!

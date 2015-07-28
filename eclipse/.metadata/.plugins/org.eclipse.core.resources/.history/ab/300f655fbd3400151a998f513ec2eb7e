@@ -1,0 +1,7 @@
+package com.rithsagea.me;
+
+import net.minecraft.item.Item;
+
+public class ItemMechaPickaxe extends Item {
+
+}
