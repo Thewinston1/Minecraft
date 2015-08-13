@@ -1,7 +1,0 @@
-package com.rithsagea.me;
-
-import net.minecraft.item.ItemPickaxe;
-
-public class ItemMechaPickaxe extends ItemPickaxe {
-
-}

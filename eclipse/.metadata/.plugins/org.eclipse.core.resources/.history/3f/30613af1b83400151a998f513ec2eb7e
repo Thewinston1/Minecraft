@@ -1,8 +1,0 @@
-package com.rithsagea.me;
-
-import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
-
-public class ItemMechaGeneric extends Item{
-
-}

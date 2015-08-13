@@ -1,7 +1,5 @@
 package com.rithsagea.me;
 
-import com.rithsagea.me.TMR_Core;
-
 import net.minecraft.item.Item;
 import net.minecraft.creativetab.CreativeTabs;
 

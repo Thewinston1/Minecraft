@@ -2,6 +2,7 @@ package com.rithsagea.me;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -20,54 +21,73 @@ public class TMR_Core {
 	public static final String MODID = "TMRCore";
 	public static final String VERSION = "1.0";
 	
-	public static Item orb;
-	public static Item corrupted_orb;
 	public static Item MechaDust;
 	public static Item MechaIngot;	
 	public static Item berry;
 	
 	public static Item mechapickaxe;
+	public static Item mechaaxe;
+	public static Item mechahoe;
+	public static Item mechashovel;
+	public static Item mechasword;
 	
-	ToolMaterial Mecha = EnumHelper.addToolMaterial("mecha", 20, 999999999, 999999999F, 20F, 100000);
+	public static Item mechapaxel;
+	public static Item mechasphax;
+	
+	public static Item mechahelmet;
+	public static Item mechachest;
+	public static Item mechaleggings;
+	public static Item mechaboots;
+	
+	ToolMaterial Mecha = EnumHelper.addToolMaterial("mecha", 5, -1, 999999999F, 20F, 100000);
+	
+	ArmorMaterial MechaArmor = EnumHelper.addArmorMaterial("MechaArmor", -1, new int[] {999,999,999,999}, 999);
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		orb = new ItemOrb("orb");
-		corrupted_orb = new ItemOrb("corrupted_orb");
 		MechaDust = new ItemMechaGeneric("MechaDust");
 		MechaIngot = new ItemMechaGeneric("MechaIngot");	
 		berry = new ItemBerry(3, 0.3F, true,"berry");
 		
-		mechapickaxe = new ItemMechaPickaxe(Mecha, " MechaPickaxe");
+		mechapickaxe = new ItemMechaPickaxe(Mecha, "MechaPickaxe");
+		mechaaxe = new ItemMechaAxe(Mecha, "MechaAxe");
+		mechahoe = new ItemMechaHoe(Mecha, "MechaHoe");
+		mechashovel = new ItemMechaShovel(Mecha, "MechaShovel");
+		mechasword = new ItemMechaSword(Mecha, "MechaSword");
 		
-		GameRegistry.registerItem(orb, "orb");
-		GameRegistry.registerItem(corrupted_orb, "corrupted_orb");
+		mechapaxel = new ItemMechaPaxel(Mecha, "MechaPaxel");
+		mechasphax = new ItemMechaSphax(Mecha, "MechaSphax");
+		
+		mechahelmet = new ItemMechaArmor(MechaArmor, 0, "MechaHelmet");
+		mechachest = new ItemMechaArmor(MechaArmor, 1, "MechaChest");
+		mechaleggings = new ItemMechaArmor(MechaArmor, 2, "MechaLeggings");
+		mechaboots = new ItemMechaArmor(MechaArmor, 3, "MechaBoots");
+		
 		GameRegistry.registerItem(MechaDust, "MechaDust");
 		GameRegistry.registerItem(MechaIngot,"MechaIngot");		
 		GameRegistry.registerItem(berry, "Berry");
 		
 		GameRegistry.registerItem(mechapickaxe,"MechaPickaxe");
+		GameRegistry.registerItem(mechaaxe, "MechaAxe");
+		GameRegistry.registerItem(mechahoe, "MechaHoe");
+		GameRegistry.registerItem(mechashovel, "MechaShovel");
+		GameRegistry.registerItem(mechasword, "MechaSword");
+		
+		GameRegistry.registerItem(mechapaxel, "MechaPaxel");
+		GameRegistry.registerItem(mechasphax, "MechaSphax");
+		
+		GameRegistry.registerItem(mechahelmet,"MechaHelmet");
+		GameRegistry.registerItem(mechachest, "MechaChest");
+		GameRegistry.registerItem(mechaleggings, "MechaLeggings");
+		GameRegistry.registerItem(mechaboots, "MechaBoots");
 	}
 	@EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		//Crafting
-			//Sapling Conversion
-		GameRegistry.addRecipe(new ItemStack(Blocks.sapling),
-				"XXX",
-				"XXX",
-				"XXX",
-				'X',Blocks.leaves
-		);
 		GameRegistry.addRecipe(new ItemStack(Items.saddle),
 				"X X",
 				" X ",
 				'X',Items.leather);
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.sapling,1,2), new ItemStack(Blocks.sapling));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.sapling,1,3), new ItemStack(Blocks.sapling,1,2));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.sapling,1,4), new ItemStack(Blocks.sapling,1,3));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.sapling,1,5), new ItemStack(Blocks.sapling,1,4));
-		GameRegistry.addShapelessRecipe(new ItemStack(Blocks.sapling), new ItemStack(Blocks.sapling,1,5));
 	}
 }

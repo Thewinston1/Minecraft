@@ -1,5 +1,0 @@
-package com.rithsagea.me;
-
-public class ItemMechaGeneric extends Item{
-
-}

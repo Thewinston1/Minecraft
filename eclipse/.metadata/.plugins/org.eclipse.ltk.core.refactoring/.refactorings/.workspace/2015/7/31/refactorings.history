@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 3 resources" deleteContents="false" description="Delete 3 resources" element1="/Minecraft/bin/.DS_Store" element2="/Minecraft/bin/assets" element3="/Minecraft/bin/com" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="3" stamp="1438294699170"/>
+</session>

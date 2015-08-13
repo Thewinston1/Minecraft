@@ -5,8 +5,22 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod.EventHandler"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
-<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="scala.annotation.meta.companionClass"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.IWorldGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="net.minecraft.world.chunk.IChunkProvider"/>
 </qualifiedTypeNameHistroy>
