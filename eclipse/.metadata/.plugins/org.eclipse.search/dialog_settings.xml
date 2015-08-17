@@ -31,8 +31,8 @@
 		<item value="TRUE" key="org.eclipse.jdt.search.resultpage.limit_enabled"/>
 	</section>
 	<section name="DialogBounds_SearchDialog">
-		<item value="556" key="DIALOG_WIDTH"/>
-		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		<item value="569" key="DIALOG_WIDTH"/>
+		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="472" key="DIALOG_HEIGHT"/>
 		<item value="442" key="DIALOG_X_ORIGIN"/>
 		<item value="85" key="DIALOG_Y_ORIGIN"/>

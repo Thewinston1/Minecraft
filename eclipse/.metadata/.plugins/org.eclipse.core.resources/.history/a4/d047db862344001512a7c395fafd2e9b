@@ -1,0 +1,10 @@
+package com.wuppy.samsmod;
+
+import net.minecraft.item.Item;
+
+public class ItemKey extends Item {
+	public ItemKey(String name) {
+		setUnlocalizedName(SamsMod.MODID + "_" + name);
+		setCreativeTab(CreativeTabs.tabMisc);
+	}
+}

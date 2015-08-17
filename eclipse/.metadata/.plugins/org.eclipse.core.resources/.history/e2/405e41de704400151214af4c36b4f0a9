@@ -1,0 +1,7 @@
+package com.wuppy.samsmod;
+
+import net.minecraft.item.Item;
+
+public class ItemSamGeneric extends Item {
+
+}
