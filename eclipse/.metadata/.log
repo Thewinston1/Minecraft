@@ -2899,3 +2899,559 @@ org.eclipse.jgit.api.errors.JGitInternalException: Entry not found by path: ecli
 	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:206)
 	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:93)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2015-08-18 19:02:29.908 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-18 19:02:40.565
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-18 19:02:54.717
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-18 19:02:54.717
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a95cb11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@915d7c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-26 14:26:22.853 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data /Applications/eclipse/forge/eclipse -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-26 14:26:29.958
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-26 14:26:38.063
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-26 14:26:38.063
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27bb74e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@606d6d2c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-26 17:05:41.370 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-26 17:05:53.064
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-26 17:06:13.616
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-26 17:06:13.616
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2bfc8558,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6029f2a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-26 18:35:35.476 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-26 18:35:42.122
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-26 18:35:57.603
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-26 18:35:57.603
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c65d8e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@382faf51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-28 18:43:21.585 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-28 18:43:49.505
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-28 18:44:41.807
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-28 18:44:41.807
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42576db9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30358dc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-28 18:47:44.527 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-28 18:48:01.735
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-28 18:48:13.389
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-28 18:48:13.389
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16b76858,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d3cce46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-28 19:08:22.877 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-28 19:08:26.838
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-28 19:08:31.326
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-28 19:08:31.326
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b126187,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b6262bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-30 15:19:30.849 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Applications/eclipse/forge/eclipse -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-30 15:20:33.432
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-30 15:21:16.464
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-30 15:21:16.465
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74707df8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12c76d6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2015-08-30 17:23:30.766 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-30 17:23:38.039
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-30 17:23:46.753
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-30 17:23:46.753
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cf047cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c92a549,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-30 19:19:00.221
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=685, childStart=684, element==Minecraft/\/Users\/liluyang\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.2.1291\/forgeSrc-1.7.10-10.13.2.1291.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-30 19:19:44.734
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=685, childStart=684, element==Minecraft/\/Users\/liluyang\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.2.1291\/forgeSrc-1.7.10-10.13.2.1291.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SESSION 2015-08-31 09:05:17.798 -----------------------------------------------
+eclipse.buildId=4.4.1.M20140925-0400
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/liluyang/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.m2e.logback.configuration 2 0 2015-08-31 09:05:29.536
+!MESSAGE Exception while setting up logging:org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+!STACK 0
+java.lang.ClassCastException: org.eclipse.osgi.internal.framework.EquinoxConfiguration$1 cannot be cast to java.lang.String
+	at org.eclipse.m2e.logback.configuration.LogHelper.logJavaProperties(LogHelper.java:26)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.loadConfiguration(LogPlugin.java:189)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.configureLogback(LogPlugin.java:144)
+	at org.eclipse.m2e.logback.configuration.LogPlugin.access$2(LogPlugin.java:107)
+	at org.eclipse.m2e.logback.configuration.LogPlugin$1.run(LogPlugin.java:62)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+!ENTRY org.eclipse.jface 2 0 2015-08-31 09:05:47.656
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-31 09:05:47.656
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a4e939a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@110620d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-31 10:40:21.207
+!MESSAGE Failed to resolve selection in '=Minecraft/src\/main\/java<com.ethereal.TMRCore.Items{ItemKey.java' at offset 0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-31 10:40:21.504
+!MESSAGE Failed to resolve selection in '=Minecraft/src\/main\/java<com.ethereal.TMRCore.Items{ItemKey.java' at offset 0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-31 10:40:27.553
+!MESSAGE Failed to resolve selection in '=Minecraft/src\/main\/java<com.ethereal.TMRCore.structureGen{CastleGen.java' at offset 0
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2015-08-31 10:40:28.019
+!MESSAGE Failed to resolve selection in '=Minecraft/src\/main\/java<com.ethereal.TMRCore.structureGen{CastleGen.java' at offset 0
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2015-08-31 10:45:26.132
+!MESSAGE Internal Error
+!STACK 0
+java.lang.Exception: Illegal ASTNode positions: previousEnd=685, childStart=684, element==Minecraft/\/Users\/liluyang\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.2.1291\/forgeSrc-1.7.10-10.13.2.1291.jar<cpw.mods.fml.common(Mod.class[Mod, Javadoc:
+/**
+ * This defines a Mod to FML.
+ * Any class found with this annotation applied will be loaded as a Mod. The instance that is loaded will
+ * represent the mod to other Mods in the system. It will be sent various subclasses of {@link FMLEvent}
+ * at pre-defined times during the loading of the game, based on where you have applied the {@link EventHandler}
+ * annotation.
+ *
+ * <p>This is a simple example of a Mod. It has the modId of "MyModId", the name of "My example mod", it is
+ * version 1.0, and depends on FML being loaded.
+ * <pre>{@code
+ * package mymod;
+ * // Declare that this is a mod with modId "MyModId", name "My example mod", version "1.0" and dependency on FML.
+ * {@literal @}Mod(modId="MyModId",name="My example mod",version="1.0",dependencies="required-after:FML")
+ * public class MyMod {
+ *      // Populate this field with the instance of the mod created by FML
+ *      {@literal @}Instance("MyModId")
+ *      public MyMod instance;
+ *
+ *      // Mark this method for receiving an {@link FMLEvent} (in this case, it's the {@link FMLPreInitializationEvent})
+ *      {@literal @}EventHandler public void preInit(FMLPreInitializationEvent event)
+ *      {
+ *          // Do stuff in pre-init phase (read config, create blocks and items, register them)
+ *      }
+ * }
+ * }
+ * </pre>
+ *
+ * @author cpw
+ *
+ */
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1145)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.handleContentElements(JavadocContentAccess2.java:1133)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.toHTML(JavadocContentAccess2.java:874)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.javadoc2HTML(JavadocContentAccess2.java:729)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:614)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:496)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:689)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:607)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:599)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)

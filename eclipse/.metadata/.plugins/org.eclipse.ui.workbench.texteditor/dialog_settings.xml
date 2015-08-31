@@ -2,12 +2,16 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="soul_sand" key="selection"/>
+		<item value="getMaxEnchantability" key="selection"/>
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
+			<item value="getMaxEnchantability"/>
+			<item value="getMinEnchantability"/>
+			<item value="getMin"/>
+			<item value="getMinEnchan"/>
 			<item value="slowSand"/>
 			<item value="stairsStoneBrickSmooth"/>
 			<item value="stoneBrick"/>

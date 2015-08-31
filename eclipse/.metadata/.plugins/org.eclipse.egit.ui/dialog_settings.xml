@@ -23,7 +23,7 @@
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="623" key="DIALOG_HEIGHT"/>
 		<item value="265" key="DIALOG_X_ORIGIN"/>
-		<item value="-35" key="DIALOG_Y_ORIGIN"/>
+		<item value="-34" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="GitCommitMessageComponent">
 	</section>

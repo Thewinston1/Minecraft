@@ -1,8 +1,0 @@
-package com.wuppy.samsmod;
-
-import net.minecraft.init.Blocks;
-
-
-public class SamsMod {
-
-}
