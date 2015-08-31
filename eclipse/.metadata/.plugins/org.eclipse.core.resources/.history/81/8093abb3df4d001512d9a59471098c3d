@@ -1,0 +1,12 @@
+package com.wuppy.samsmod;
+
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.EnumEnchantmentType;
+
+public class EnchantmentSpeedBoost extends Enchantment{
+
+	protected EnchantmentSpeedBoost(int id, int rarity,EnumEnchantmentType p_i1926_3_) {
+		super(id, rarity, p_i1926_3_);
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.ethereal.rithsagea.TMRCore.Items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.util.IIcon;
+
+import com.ethereal.rithsagea.TMRCore.TMRCore;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+
+public class ItemKey extends Item{
+	private String[] name = {"grey", "red"};
+	@SideOnly(Side.CLIENT)
+	private IIcon[] icons;
+	
+	public ItemKey(String name) {
+		setUnlocalizedName(TMRCore.MODID + "_" + name);
+		setHasSubtypes(true);
+		setCreativeTab(CreativeTabs.tabMisc);
+	}
+}

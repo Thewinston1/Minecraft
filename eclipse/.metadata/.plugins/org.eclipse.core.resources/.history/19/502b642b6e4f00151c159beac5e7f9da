@@ -1,0 +1,8 @@
+package com.ethereal.TMRCore.Crafting;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = "TMRCoreCrafting", name = "Techno Magic Revolution Core Crafting", dependencies = "required-after:TMRCore")
+public class Vanilla {
+
+}

@@ -1,0 +1,9 @@
+package com.ethereal.TMRCore;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid = MODID)
+
+public class TMR_Core {
+	public static final String MODID = "TMRCore";
+}

@@ -1,0 +1,5 @@
+package com.ethereal.TMRCore.Items;
+
+public class ItemKey {
+
+}
