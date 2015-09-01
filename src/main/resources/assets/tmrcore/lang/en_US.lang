@@ -1,1 +1,11 @@
-item.TMRCore_key.name=Key
+item.TMRCore_key.grey.name=Grey Key
+item.TMRCore_key.red.name=Red Key
+item.TMRCore_chaosingot.name=Chaos Ingot
+item.TMRCore_chaosdust.name=Chaos Dust
+item.TMRCore_berry.name=Berry
+item.TMRCore_shard.name=Stone Shard
+item.TMRCore_chaossword.name=Chaos Sword
+item.TMRCore_chaospickaxe.name=Chaos Pickaxe
+item.TMRCore_chaoshoe.name=Chaos Hoe
+item.TMRCore_chaosaxe.name=Chaos Axe
+item.TMRCore_chaosshovel.name=Chaos Shovel
